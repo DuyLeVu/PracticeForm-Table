@@ -13,20 +13,51 @@
     }
     p{
         margin: 0;
+        font-weight: bold;
+    }
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    select{
+        width: 50%;
+        font-size: 16px;
     }
     </style>
 </head>
 <body>
 <form action="" method="post">
     <h2 class="wufoo">Market Research Survey</h2>
-    <p>Please take a few moments to complete this satisfaction survey</p>
+    <p style="font-weight: normal">Please take a few moments to complete this satisfaction survey</p>
     <hr>
-    <p>What is your age range?</p>
-    <select>
-        <option value= " ">A</option>
-        <option value= " ">B (+ 0.5$)</option>
-        <option value= " ">C (+ 0.5$)</option>
-    </select>
+    <ul>
+        <li>
+            <p>What is your age range?</p>
+            <select>
+                <option value= "18-24"> 18-24 </option>
+                <option value= "25-34"> 25-34 </option>
+                <option value= "35-50"> 35-50 </option>
+                <option value= "50+"> 50+ </option>
+            </select>
+        </li>
+        <li>
+            <p>What is your yearly income range?</p>
+            <select>
+                <option value= "$0 - $25,000"> $0 - $25,000 </option>
+                <option value= "$25,001 - $50,000"> $25,001 - $50,000 </option>
+                <option value= "$50,001 - $100,000"> $50,001 - $100,000 </option>
+                <option value= "$100,000+"> $100,000+ </option>
+            </select>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ul>
+
+
 </form>
 
 </body>
