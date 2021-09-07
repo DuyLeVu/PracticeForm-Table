@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What's your hobby</title>
+    <style>
+        body{
+            background-color: #D5FEFF;
+            font-family: Tahoma, sans-serif;
+        }
+        h1{
+            text-align: center;
+            background-color: #FF4C00;
+            color: white;
+            font-weight: lighter;
+            margin: 0;
+            padding: 5px;
+        }
+        form{
+            background-color: white;
+            width: 100%;
+        }
+        span{
+            color: #FF4C00;
+        }
+        table{
+            width: 95%;
+            margin: auto;
+        }
+        td {
+            padding: 5px 15px;
+        }
+    </style>
+</head>
+<body>
+<form method="get" action="hobbyform.html">
+    <h1>SỞ THÍCH CỦA BẠN</h1>
+    <table>
+        <tr>
+            <td style="color: #6c7ccd; text-align: right">Họ và tên</td>
+            <td><input type="textbox" name="email" size="50"></td>
+        </tr>
+        <tr>
+            <td style="color: #6c7ccd; text-align: right">Email</td>
+            <td><input type="textbox" name="email" size="30"></td>
+        </tr>
+        <tr>
+            <td style="color: #6c7ccd; text-align: right">Sở thích</td>
+            <td>
+                <table style="margin: 0">
+                    <tr>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="1"><span>Thể thao</span></td>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="2"><span>Âm nhạc</span></td>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="3"><span>Đọc sách</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="4"><span>Lướt Web</span></td>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="5"><span>Chơi game</span></td>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="6"><span>Điện ảnh</span></td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 0 20px 0 0"><input type="checkbox" name="hobby" value="7"><span>Du lịch</span></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"  style="padding: 0 20px 0 150px">
+                <input type="submit" value="Gửi thông tin">
+                <input type="reset" value="Nhập lại">
+            </td>
+        </tr>
+    </table>
+
+</form>
+</body>
+</html>
