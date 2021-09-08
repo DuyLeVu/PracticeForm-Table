@@ -1,0 +1,39 @@
+/**{*/
+/*    font-size: 16px;*/
+/*}*/
+body{
+    background-color: #FFB300;
+}
+table{
+    width: 70%%;
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+tr, td{
+    width: 150px;
+    height: 150px;
+}
+th{
+    background-color: #FFB300;
+}
+th:first-child
+{
+    text-align: right;
+    font-size: 3rem;
+    padding:20px;
+}
+tr:first-child {
+    text-align: center;
+    font-size: 3rem;
+    padding:20px;
+}
+tr:nth-child(odd) {
+    background-color: black;
+}
+td:nth-child(odd) {
+    background-color: black;
+}
+table   .lap{
+    background-color: white;
+}
